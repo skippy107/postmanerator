@@ -21,8 +21,8 @@ RUN apk update \
  && git clone https://github.com/aubm/postmanerator-markdown-theme.git markdown \
  && cd /usr/bin/ \
  && if [ "${verify_ssl}" = "n" ]; \
-    then wget -O postmanerator https://github.com/aubm/postmanerator/releases/download/v0.8.0/postmanerator_linux_386 --no-check-certificate; \
-    else wget -O postmanerator https://github.com/aubm/postmanerator/releases/download/v0.8.0/postmanerator_linux_386; \
+    then wget -O postmanerator https://github.com/aubm/postmanerator/releases/download/v0.10.0/postmanerator_linux_386 --no-check-certificate; \
+    else wget -O postmanerator https://github.com/aubm/postmanerator/releases/download/v0.10.0/postmanerator_linux_386; \
     fi \
  && chmod +x postmanerator
 
